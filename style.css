@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+   background-color: #320bde;
+
+}
+.header{
+    font-size: 50px;
+}
+
+.container{
+    position: absolute;
+    top:20%;
+    max-width: 900px;
+    background: #00052c;
+    border-radius:50px;
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.4);
+    font-family: sans-serif;
+    padding: 20px;
+}
+.container{
+    background-image: url(hepi.webp);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap:5px;
+}
+
+h1{
+    color: #080909;
+   letter-spacing: 1.2px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#celsius, #fahrenheit, #kelvin{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+}
+
+input{
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+}
+
+
+/* for chrome, safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+.icon{
+    flex:5;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background: #010c17;
+    color: #fd9104;
+    border-radius: 0 8px 8px 0;
+}
+
+
+.button{
+margin-top: 25px;
+text-align: center;
+}
+
+
+.button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button button:hover{
+    background: #000;
+    color: #fff;
+}
+
+#element{
+    color:rgb(50, 56, 55);
+    background-color: #fd9104;
+    font-size: 40px;
+} 
